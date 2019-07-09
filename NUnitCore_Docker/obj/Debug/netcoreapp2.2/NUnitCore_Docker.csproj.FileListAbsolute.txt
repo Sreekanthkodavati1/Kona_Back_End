@@ -1,0 +1,14 @@
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnitCore_Docker.deps.json
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnitCore_Docker.runtimeconfig.json
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnitCore_Docker.runtimeconfig.dev.json
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnitCore_Docker.dll
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\bin\Debug\netcoreapp2.2\NUnitCore_Docker.pdb
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.csprojAssemblyReference.cache
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.csproj.CoreCompileInputs.cache
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.AssemblyInfoInputs.cache
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.AssemblyInfo.cs
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.dll
+C:\Work\BackEnd\APICore_Docker\NUnitCore_Docker\obj\Debug\netcoreapp2.2\NUnitCore_Docker.pdb

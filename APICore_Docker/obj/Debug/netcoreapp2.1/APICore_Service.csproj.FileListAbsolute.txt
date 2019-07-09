@@ -1,0 +1,14 @@
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\bin\Debug\netcoreapp2.1\APICore_Service.deps.json
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\bin\Debug\netcoreapp2.1\APICore_Service.runtimeconfig.json
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\bin\Debug\netcoreapp2.1\APICore_Service.runtimeconfig.dev.json
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\bin\Debug\netcoreapp2.1\APICore_Service.dll
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\bin\Debug\netcoreapp2.1\APICore_Service.pdb
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.csproj.CoreCompileInputs.cache
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.RazorAssemblyInfo.cache
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.RazorAssemblyInfo.cs
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.AssemblyInfoInputs.cache
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.AssemblyInfo.cs
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.RazorTargetAssemblyInfo.cache
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.dll
+C:\Work\BackEnd\APICore_Docker\APICore_Docker\obj\Debug\netcoreapp2.1\APICore_Service.pdb
