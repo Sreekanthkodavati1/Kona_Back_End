@@ -1,0 +1,8 @@
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\bin\Debug\netcoreapp2.1\ProjectKonaConstants.deps.json
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\bin\Debug\netcoreapp2.1\ProjectKonaConstants.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\bin\Debug\netcoreapp2.1\ProjectKonaConstants.pdb
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\obj\Debug\netcoreapp2.1\ProjectKonaConstants.csproj.CoreCompileInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\obj\Debug\netcoreapp2.1\ProjectKonaConstants.AssemblyInfoInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\obj\Debug\netcoreapp2.1\ProjectKonaConstants.AssemblyInfo.cs
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\obj\Debug\netcoreapp2.1\ProjectKonaConstants.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\ProjectKonaConstants\obj\Debug\netcoreapp2.1\ProjectKonaConstants.pdb

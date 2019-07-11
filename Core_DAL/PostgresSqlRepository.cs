@@ -1,6 +1,7 @@
 ﻿using Core_DALInterface;
 using PetaPoco;
 using PetaPoco.Providers;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,20 +38,53 @@ namespace Core_DAL
 
         }
 
-        public async Task<bool> Insert(T entity)
+        public async Task<T> FetchById(int id)
         {
+            try
+            {
+                //using (db)
+                //{
+                var list = await db.SingleOrDefaultAsync<T>(id);
+                return list;
+                //};
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public async Task<Tuple<int, bool>> Insert(T entity)
+        {
+
             using (db)
             {
-                var records = await db.InsertAsync("User", "PK_User", entity);
-                return Convert.ToInt32(records) > 0;
+                try
+                {
+                    var records = await db.InsertAsync(entity);
+                    return new Tuple<int, bool>(Convert.ToInt32(records), Convert.ToInt32(records) > 0);
+                }
+                catch (Exception ex)
+                {
+
+                    throw ex;
+                }
+                //db.Query<T>(sql);
+
             };
         }
 
         public async Task<bool> Delete(T entity, int id)
         {
-
-            var records = await db.DeleteAsync<T>(id);
-            return records > 0;
+            try {
+                var records = await db.DeleteAsync<T>(id);
+                return records > 0;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            
         }
 
         public async Task<bool> Save(T entity)

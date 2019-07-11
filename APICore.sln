@@ -1,25 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_APIService", "APICore_Docker\Core_APIService.csproj", "{8981CB95-D634-4F7A-8C07-B97AC42654C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_NUnit", "NUnitCore_Docker\Core_NUnit.csproj", "{66C87209-84C9-4C5F-921C-53B93CA41FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_NUnit", "NUnitCore_Docker\Core_NUnit.csproj", "{66C87209-84C9-4C5F-921C-53B93CA41FEF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BAL", "BAL", "{AED40E02-02F0-4A90-A2BC-74CE26D65F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_BAL", "BALCore\Core_BAL.csproj", "{69C456AE-9668-4C7C-88F3-2FACF8492A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_BAL", "BALCore\Core_BAL.csproj", "{69C456AE-9668-4C7C-88F3-2FACF8492A6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_BALInterface", "BALInterfaceCore\Core_BALInterface.csproj", "{C0B61F4F-6F16-495D-8B33-484A5CFAD73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_BALInterface", "BALInterfaceCore\Core_BALInterface.csproj", "{C0B61F4F-6F16-495D-8B33-484A5CFAD73D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{9FF7B797-A231-4740-824B-99C13E8643D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_DAL", "Core_DAL\Core_DAL.csproj", "{9810915E-C9D6-4702-BCA2-80F2AC713A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_DAL", "Core_DAL\Core_DAL.csproj", "{9810915E-C9D6-4702-BCA2-80F2AC713A46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_DALInterface", "Core_DALInterface\Core_DALInterface.csproj", "{5DB3560B-E964-4D19-AA48-6911BA0D0E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_DALInterface", "Core_DALInterface\Core_DALInterface.csproj", "{5DB3560B-E964-4D19-AA48-6911BA0D0E7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_DomainModel", "Core_DomainModel\Core_DomainModel.csproj", "{F4F7E70C-B804-42B9-86B3-31B014C5709B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_DomainModel", "Core_DomainModel\Core_DomainModel.csproj", "{F4F7E70C-B804-42B9-86B3-31B014C5709B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

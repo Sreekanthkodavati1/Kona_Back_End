@@ -3,10 +3,12 @@
 namespace Core_DomainModel
 {
     [TableName("\"ProjectKona\".\"User\"")]
+    [PrimaryKey("UserId", AutoIncrement = true)]
     public class User
     {
 
         [PetaPoco.Column(Name = "UserId")]
+
         public int UserId { get; set; }
         [PetaPoco.Column(Name = "FirstName")]
         public string FirstName { get; set; }

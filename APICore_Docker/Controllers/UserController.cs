@@ -34,17 +34,28 @@ namespace Core_APIService.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<IActionResult> InsertData(string firstName, string lastName)
+        [HttpGet("{UserId}", Name = "GetUserById")]
+        public async Task<IActionResult> GetUserById(int UserId)
         {
             try
             {
-                var user = new User { UserId = 2, FirstName = firstName, LastName = lastName };
+                var users = await _UserBal.GetUserById(UserId);
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
 
-                if (await _UserBal.Insert(user))
-                {
-                    return Ok(user);
-                }
+        [HttpPost]
+        public async Task<IActionResult> InsertData([FromBody]User User)
+        {
+            try
+            {
+                
+                var result = await _UserBal.Insert(User);
+                if (result.Item2) return CreatedAtRoute("GetUserById", new { UserId = result.Item1 }, User);
                 return BadRequest("Some thing wen wrong in saving the changes");
             }
             catch (Exception ex)

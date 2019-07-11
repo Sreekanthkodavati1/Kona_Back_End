@@ -23,9 +23,16 @@ namespace Core_BAL
             var userList = await userRepository.FetchAll();
             return userList;
         }
-        public async Task<bool> Insert(User entity)
+        public async Task<Tuple<int, bool>> Insert(User entity)
         {
+                       
             return await userRepository.Insert(entity);
+        }
+
+        public async Task<User> GetUserById(int id)
+        {
+            var userList = await userRepository.FetchById(id);
+            return userList;
         }
         public async Task<bool> Delete(User entity, int id)
         {
