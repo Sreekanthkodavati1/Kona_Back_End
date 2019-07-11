@@ -1,58 +1,93 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Core_BAL;
 using Core_DomainModel;
 using Core_BALInterfaceCore;
-//using Microsoft.Extensions.Configuration
-
+using Microsoft.AspNetCore.Http;
 namespace Core_APIService.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
-        private IUserBAL userBAL;
-        //UserBAL userBAL = new UserBAL();
-        public UserController(IUserBAL userBAL)
+        private readonly IEntityBAL<User> _UserBal;
+
+
+        public UserController(IEntityBAL<User> userBal)
         {
-            this.userBAL = userBAL;
+            _UserBal = userBal;
         }
-        // GET api/values
+
+
         [HttpGet]
-        public ActionResult<IEnumerable<string>> GetUsers()
+        public async Task<IActionResult> GetUsers()
         {
-            // return new string[] { "value1", "value2" };
-            return Ok(userBAL.GetUsers());
-
+            try
+            {
+                var users = await _UserBal.GetUsers();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> GetUser(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> InsertData(string firstName, string lastName)
         {
+            try
+            {
+                var user = new User { UserId = 2, FirstName = firstName, LastName = lastName };
+
+                if (await _UserBal.Insert(user))
+                {
+                    return Ok(user);
+                }
+                return BadRequest("Some thing wen wrong in saving the changes");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpDelete]
+        public async Task<IActionResult> DeleteDataById([FromBody]User model)
         {
+            try
+            {
+
+                if (await _UserBal.Delete(model, model.UserId))
+                {
+                    return Ok(true);
+                }
+                return BadRequest("Some thing wen wrong in deleting the records");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpPut]
+        public async Task<IActionResult> UpdateData([FromBody]User model)
         {
+            try
+            {
+
+                if (await _UserBal.Update(model))
+                {
+                    return Ok(model);
+                }
+                return BadRequest("Some thing wen wrong in updating the changes");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
+
     }
 }

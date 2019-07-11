@@ -24,3 +24,12 @@ D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel
 D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfo.cs
 D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
 D:\Trainings\git_core\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.deps.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csprojAssemblyReference.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfoInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.AssemblyInfo.cs
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DomainModel\obj\Debug\netstandard2.0\Core_DomainModel.pdb

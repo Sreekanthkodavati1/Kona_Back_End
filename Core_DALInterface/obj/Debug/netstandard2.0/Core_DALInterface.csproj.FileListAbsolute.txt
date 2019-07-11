@@ -31,3 +31,15 @@ D:\Trainings\git_core\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterfa
 D:\Trainings\git_core\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.csproj.CopyComplete
 D:\Trainings\git_core\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.dll
 D:\Trainings\git_core\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\bin\Debug\netstandard2.0\Core_DALInterface.deps.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\bin\Debug\netstandard2.0\Core_DALInterface.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\bin\Debug\netstandard2.0\Core_DALInterface.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\bin\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.csprojAssemblyReference.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.csproj.CoreCompileInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.AssemblyInfoInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.AssemblyInfo.cs
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.csproj.CopyComplete
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\Core_DALInterface\obj\Debug\netstandard2.0\Core_DALInterface.pdb

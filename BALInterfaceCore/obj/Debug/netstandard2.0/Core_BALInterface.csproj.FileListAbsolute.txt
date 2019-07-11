@@ -30,3 +30,15 @@ D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterfac
 D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CopyComplete
 D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.dll
 D:\Trainings\git_core\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.deps.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\bin\Debug\netstandard2.0\Core_BALInterface.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\bin\Debug\netstandard2.0\Core_DomainModel.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csprojAssemblyReference.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CoreCompileInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfoInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.AssemblyInfo.cs
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.csproj.CopyComplete
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\BALInterfaceCore\obj\Debug\netstandard2.0\Core_BALInterface.pdb

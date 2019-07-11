@@ -4504,7 +4504,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
+          "Newtonsoft.Json": "12.0.2",
+          "PetaPoco.Compiled": "6.0.415"
         },
         "compile": {
           "bin/placeholder/Core_DomainModel.dll": {}
@@ -7082,7 +7083,7 @@
       ]
     },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.7.9": {
-      "sha512": "qctOe/wBGvigq5c0GSjzR8TUgdpQv7YhHugiUyvBHTXhOpKKbhVhrsXqy4fEHZ4kVU5498ywsigEbrQ22ps4ew==",
+      "sha512": "zXIX0TLaviW4Q+lgG4z01xPNUNMzH31c+gl+Om6NKnaePOBgmRZ+/odqmbaTYW1of0Wx8qcJl46hGhipy2tVYQ==",
       "type": "package",
       "path": "microsoft.visualstudio.azure.containers.tools.targets/1.7.9",
       "hasTools": true,
@@ -7358,7 +7359,7 @@
       ]
     },
     "Ninject/3.3.4": {
-      "sha512": "CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "sha512": "pfBwjaYJ306C3KaFa5WToDJUCgMYefnoLKpSevj+EPidcNEUhvveCmNeWtPl6N6DfPTJJv7vRVcbRIofO0U/QA==",
       "type": "package",
       "path": "ninject/3.3.4",
       "files": [
@@ -7373,7 +7374,7 @@
       ]
     },
     "Npgsql/4.0.7": {
-      "sha512": "MtKdc1CjuS0BnHti51Skw5A1cbk0JmUxgRIepqq8zkgZ3kYpBOQJcrTGH+305I7kqQBtGs9Y/kpJjv/GBExulw==",
+      "sha512": "wSZOdLAWMhlncV4o43PX1b9uuE++xrSaPFgyap8vzhZFANYV0wlcSI8UqqZqTPdocF17hbS5eOAo2PQVaHZLuQ==",
       "type": "package",
       "path": "npgsql/4.0.7",
       "files": [
@@ -7393,7 +7394,7 @@
       ]
     },
     "PetaPoco/5.1.306": {
-      "sha512": "B8CaBJtriKE42WYx8M/2wGPgnTMY6DrbzzsC5NenBZgTwveKymYYf6kqC1Sm/4dwhhy9ijMpu20Bqmz2jOY1Gw==",
+      "sha512": "5v1uMHVUXZUvUM3XPemnFxbseZB1eWvoiNWSVaU4wGwIDxvOorO+rY5jvmL0MXQ+seWXQbCBuCwKE4fKX1AROg==",
       "type": "package",
       "path": "petapoco/5.1.306",
       "files": [
@@ -7408,7 +7409,7 @@
       ]
     },
     "PetaPoco.Compiled/6.0.415": {
-      "sha512": "W5ceuPlQGc8KjucO8KqAPaavoUa/E+tmOjl0qnUE/btFbSApWCIRPQjJpBGwv9GeKjcaSviwhqNJAX1ZgJ8fwg==",
+      "sha512": "fc1Y+94fJ/AFtlp6xfKfDuFD0dDbXqyBSvk4X8YFtgmzQCrnJIHET06Ge7DdBtI3XLDmP6IJTUGKJDru4TAL7w==",
       "type": "package",
       "path": "petapoco.compiled/6.0.415",
       "files": [
@@ -7469,7 +7470,7 @@
       ]
     },
     "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "LdIvj7Bi2jiaNTqY/ezZGVXHe1KI5fjLSI026O1TjVzsmdgTP/zTF+f3nwHCjwttyhsPBEiswv0PekimPWZwWg==",
+      "sha512": "c3YNH1GQJbfIPJeCnr4avseugSqPrxwIqzthYyZDN6EuOyNOzq+y2KSUfRcXauya1sF4foESTgwM5e1A8arAKw==",
       "type": "package",
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7509,7 +7510,7 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
@@ -7589,7 +7590,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -7628,7 +7629,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
+      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7712,7 +7713,7 @@
       ]
     },
     "Swashbuckle.AspNetCore/4.0.1": {
-      "sha512": "Zq6lkFieuFPNDwXwQ+e8i5zy2VMrexcRFU8mQORxqIc8r7Y+qKX63vg57yL1HeGCINHQGGzxGfw2rP63IeEqhg==",
+      "sha512": "k8TzWTpjwO+4xXsMaaAsAPAdYKyM5wuRvSP+ZmgtyXwhW45ChBVq3xdVJ8Tz+hQ0ziBZSh5p6r2dkRN6SyasVA==",
       "type": "package",
       "path": "swashbuckle.aspnetcore/4.0.1",
       "files": [
@@ -7724,7 +7725,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.Swagger/4.0.1": {
-      "sha512": "rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "sha512": "2+dXBiOvwjNmkMkBOqGU9ShBJXQp6+UN/Kxfk3HLxwsof9zzgRZ+3rOdjHQuYiY7t1Nl7wlCgn9HbmJyZGhdaQ==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swagger/4.0.1",
       "files": [
@@ -7737,7 +7738,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
-      "sha512": "ztAj0T1U+2AqQNA8b+nr8yVkDW9XzNaAfez6d1jO13sdn2A/JW5Syn9TThsakrHxYNLt6y6aQCXbyBfQXpcQwA==",
+      "sha512": "opm/wgG8u987ZuAUtL1E8XrJig+UbGYbFmz8VnA8Vn3AqZyQZy4k243X9egz1iWl/B6sNcgMlFyv3wkdmjJX6g==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggergen/4.0.1",
       "files": [
@@ -7750,7 +7751,7 @@
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerUI/4.0.1": {
-      "sha512": "d2U7NyV0e4UhyCzAVK9QHm0iz2QoVPUa9XzJ/Gr0rn/jBZWFpVLvigKv0vxFzO2E793sY605+4h885gvCdKSxQ==",
+      "sha512": "EjPeIYSMLr5FrY4sVJiWrzIQe07Hriv8tOztJa7US88im/tO+tX70y7OJ2Cr8QYojc7IotjZSH1lD8j44DLnrQ==",
       "type": "package",
       "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
       "files": [
@@ -8041,7 +8042,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -9364,7 +9365,7 @@
       ]
     },
     "System.Memory/4.5.3": {
-      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "sha512": "cPzhWlLMdqrLrgXI6J4uOY0dMpA/Y/ZAp91KPldH8seoh9S/0i8qLkAnSQbPkWSN/RaXNPt8dOubT3JhQITh2w==",
       "type": "package",
       "path": "system.memory/4.5.3",
       "files": [
@@ -10231,7 +10232,7 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "sha512": "hMkdWxksypQlFXB7JamQegDscxEAQO4FHd/lw/zlSZU9dZgAij65xjCrXer183wvoNAzJic5zzjj2oc9/dloWg==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "files": [
@@ -10555,7 +10556,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -10881,7 +10882,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "yO2k5o+Z+DiFRBvvB9vdRRAGHi6bm02M9OWXfCqQ8K0UxD3Woc3svQheZfb7PoTEFs0kGacO0IzzMWsb6Mkeow==",
+      "sha512": "X4s/FCkEUnRGnwR3aSfVIkldBmtURMhmexALNTwpjklzxWU7yjMk7GHLKOZTNkgnWnE0q7+BCf9N2LVRWxewaA==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -10952,7 +10953,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -12208,23 +12209,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suman\\.nuget\\packages\\": {},
+    "C:\\Users\\ramya\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trainings\\git_core\\APICore_Docker\\Core_APIService.csproj",
+      "projectUniqueName": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\APICore_Docker\\Core_APIService.csproj",
       "projectName": "Core_APIService",
-      "projectPath": "D:\\Trainings\\git_core\\APICore_Docker\\Core_APIService.csproj",
-      "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-      "outputPath": "D:\\Trainings\\git_core\\APICore_Docker\\obj\\",
+      "projectPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\APICore_Docker\\Core_APIService.csproj",
+      "packagesPath": "C:\\Users\\ramya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\APICore_Docker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ramya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12237,17 +12238,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj": {
-              "projectPath": "D:\\Trainings\\git_core\\BALCore\\Core_BAL.csproj"
+            "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\BALCore\\Core_BAL.csproj": {
+              "projectPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\BALCore\\Core_BAL.csproj"
             },
-            "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj": {
-              "projectPath": "D:\\Trainings\\git_core\\Core_DALInterface\\Core_DALInterface.csproj"
+            "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DALInterface\\Core_DALInterface.csproj": {
+              "projectPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DALInterface\\Core_DALInterface.csproj"
             },
-            "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj": {
-              "projectPath": "D:\\Trainings\\git_core\\Core_DAL\\Core_DAL.csproj"
+            "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DAL\\Core_DAL.csproj": {
+              "projectPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DAL\\Core_DAL.csproj"
             },
-            "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj": {
-              "projectPath": "D:\\Trainings\\git_core\\Core_DomainModel\\Core_DomainModel.csproj"
+            "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DomainModel\\Core_DomainModel.csproj": {
+              "projectPath": "C:\\Users\\ramya\\Source\\Repos\\Kona-Backend-Foundation\\Core_DomainModel\\Core_DomainModel.csproj"
             }
           }
         }
@@ -12273,7 +12274,6 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

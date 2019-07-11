@@ -10,8 +10,9 @@ using Core_DALInterface;
 
 namespace Core_DAL
 {
-    public class UserDAL: IUserDAL
+    public class UserDAL : IUserDAL
     {
+
         #region provate variables
         private IOptions<AppSettingsModel> appSettings;
 

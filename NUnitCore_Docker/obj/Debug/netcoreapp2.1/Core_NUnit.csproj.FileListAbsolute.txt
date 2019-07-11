@@ -1,0 +1,14 @@
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\Core_NUnit.deps.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\Core_NUnit.runtimeconfig.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\Core_NUnit.runtimeconfig.dev.json
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\Core_NUnit.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\bin\Debug\netcoreapp2.1\Core_NUnit.pdb
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.csprojAssemblyReference.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.csproj.CoreCompileInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.AssemblyInfoInputs.cache
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.AssemblyInfo.cs
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.dll
+C:\Users\ramya\Source\Repos\Kona-Backend-Foundation\NUnitCore_Docker\obj\Debug\netcoreapp2.1\Core_NUnit.pdb
