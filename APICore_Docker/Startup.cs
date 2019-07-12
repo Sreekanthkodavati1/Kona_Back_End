@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
-
+using NLog.Web;
 namespace Core_APIService
 {
     public class Startup
@@ -52,6 +52,7 @@ namespace Core_APIService
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            env.ConfigureNLog("nlog.config");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

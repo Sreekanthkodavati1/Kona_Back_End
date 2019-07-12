@@ -7,13 +7,14 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-
+using NLog.Web;
 namespace Core_APIService
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            NLogBuilder.ConfigureNLog("nlog.config");
             CreateWebHostBuilder(args).Build().Run();
         }
 
