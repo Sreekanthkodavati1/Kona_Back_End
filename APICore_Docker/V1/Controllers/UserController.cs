@@ -6,12 +6,15 @@ using Core_BALInterfaceCore;
 using Microsoft.AspNetCore.Http;
 using Core_Domain;
 
-namespace Core_APIService.Controllers
+namespace Core_APIService.V1.Controllers
 {
 
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
+    [ApiController]   
+
     public class UserController : ControllerBase
+
     {
         private readonly IEntityBAL<User> _UserBal;
 

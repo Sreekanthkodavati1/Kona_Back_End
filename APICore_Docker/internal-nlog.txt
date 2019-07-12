@@ -577,3 +577,139 @@ File name: 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'
 2019-07-12 13:40:05.0777 Warn Failed loading config from C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config. Invalid XML?
 2019-07-12 13:40:05.0890 Info Closing old configuration.
 2019-07-12 13:40:05.1123 Info Found 0 configuration items
+2019-07-12 15:07:20.6994 Info Message Template Auto Format enabled
+2019-07-12 15:07:20.7195 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-12 15:07:20.7195 Info Loading assembly: NLog.Extensions.AzureStorage
+2019-07-12 15:07:20.7884 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+2019-07-12 15:07:20.7924 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.AzureStorage ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2019-07-12 15:07:20.7924 Error Parsing configuration from nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Target cannot be found: 'AzureBlobStorage'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-07-12 15:07:20.7924 Warn Failed loading config from nlog.config. Invalid XML?
+2019-07-12 15:07:20.8424 Info Found 0 configuration items
+2019-07-12 15:07:22.8744 Info Configuring from an XML element in C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config...
+2019-07-12 15:07:22.9025 Info Message Template Auto Format enabled
+2019-07-12 15:07:22.9219 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-12 15:07:22.9313 Info Loading assembly: NLog.Extensions.AzureStorage
+2019-07-12 15:07:22.9313 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+2019-07-12 15:07:22.9632 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.AzureStorage ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2019-07-12 15:07:22.9632 Error Parsing configuration from C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config.  ---> System.ArgumentException: Target cannot be found: 'AzureBlobStorage'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-07-12 15:07:22.9790 Warn Failed loading config from C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config. Invalid XML?
+2019-07-12 15:07:22.9790 Info Closing old configuration.
+2019-07-12 15:07:23.0288 Info Found 0 configuration items
+2019-07-12 15:19:55.2517 Info Message Template Auto Format enabled
+2019-07-12 15:19:55.2680 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-12 15:19:55.2680 Info Loading assembly: NLog.Extensions.AzureStorage
+2019-07-12 15:19:55.3319 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+2019-07-12 15:19:55.3319 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.AzureStorage ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2019-07-12 15:19:55.3486 Error Parsing configuration from nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing nlog.config.  ---> System.ArgumentException: Target cannot be found: 'AzureBlobStorage'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-07-12 15:19:55.3486 Warn Failed loading config from nlog.config. Invalid XML?
+2019-07-12 15:19:55.3934 Info Found 0 configuration items
+2019-07-12 15:19:57.2913 Info Configuring from an XML element in C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config...
+2019-07-12 15:19:57.2913 Info Message Template Auto Format enabled
+2019-07-12 15:19:57.3443 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-12 15:19:57.3443 Info Loading assembly: NLog.Extensions.AzureStorage
+2019-07-12 15:19:57.3594 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+2019-07-12 15:19:57.3594 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.AzureStorage ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.AzureStorage, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2019-07-12 15:19:57.3715 Error Parsing configuration from C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config.  ---> System.ArgumentException: Target cannot be found: 'AzureBlobStorage'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-07-12 15:19:57.3881 Warn Failed loading config from C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\nlog.config. Invalid XML?
+2019-07-12 15:19:57.3881 Info Closing old configuration.
+2019-07-12 15:19:57.4219 Info Found 0 configuration items
