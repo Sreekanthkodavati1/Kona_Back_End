@@ -1,4 +1,6 @@
 ﻿using Core_DALInterface;
+using Core_Domain;
+using Microsoft.Extensions.Options;
 using PetaPoco;
 using PetaPoco.Providers;
 
@@ -12,10 +14,17 @@ namespace Core_DAL
     public class PostgresSqlRepository<T> : IRepository<T> where T : class
     {
 
+        
+        #region provate variables
+        private IOptions<AppSettingsModel> appSettings;
         IDatabase db;
-        public PostgresSqlRepository()
+
+       // private readonly string strGetUsersQuery = @"select first_name FirstName,last_name LastName,user_id UserId from security.user_account";
+        #endregion
+        public PostgresSqlRepository(IOptions<AppSettingsModel> Appstns)
         {
-            db = DatabaseConfiguration.Build().UsingConnectionString("Username = postgres; Password = password; Host = localhost; Port = 5432; Database = ProjectKona; ").UsingProvider(new PostgreSQLDatabaseProvider()).Create();
+            this.appSettings = Appstns;
+            db = DatabaseConfiguration.Build().UsingConnectionString(appSettings.Value.DefaultConnection).UsingProvider(new PostgreSQLDatabaseProvider()).Create();
             db.OpenSharedConnection();
         }
 

@@ -23,3 +23,4 @@ C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\obj\Debug\net
 C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\obj\Debug\netcoreapp2.2\Core_APIService.csproj.CopyComplete
 C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\obj\Debug\netcoreapp2.2\Core_APIService.dll
 C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\obj\Debug\netcoreapp2.2\Core_APIService.pdb
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\APICore_Docker\bin\Debug\netcoreapp2.2\Core_APIService.xml

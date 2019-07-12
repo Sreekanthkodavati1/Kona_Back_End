@@ -12,6 +12,12 @@ using Core_DAL;
 
 using NLog.Web;
 using Core_Domain;
+using System.Reflection;
+using System.IO;
+using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.Extensions.PlatformAbstractions;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 namespace Core_APIService
 {
@@ -28,16 +34,7 @@ namespace Core_APIService
         public void ConfigureServices(IServiceCollection services)
         {
 
-
-            services.AddMvc(config =>
-            {
-                config.Filters.Add(typeof(ExceptionHandler));
-            }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-
-            #region Swagger Generation
-            services.AddSwaggerGen(s => { s.SwaggerDoc("v1", new Info { Title = "Core API", Description = "Core API Swagger Integration" }); });
-            #endregion
+            services.AddMvc(options => { options.EnableEndpointRouting = true; options.Filters.Add(typeof(ExceptionHandler)); }).SetCompatibilityVersion(CompatibilityVersion.Latest);
 
             #region DB Connection String
             services.Configure<AppSettingsModel>(Configuration.GetSection("ConnectionStrings"));
@@ -48,22 +45,41 @@ namespace Core_APIService
             BALDependnecies.RegisterBALDependnecies(services);
             #endregion
 
-            //services.AddScoped<IEntityBAL<User>, UserBAL>();
+            services.AddApiVersioning(
+                options =>
+                {
+                    // reporting api versions will return the headers "api-supported-versions" and "api-deprecated-versions"
+                    options.ReportApiVersions = true;
+                });
+            services.AddVersionedApiExplorer(
+                options =>
+                {
+                    // add the versioned api explorer, which also adds IApiVersionDescriptionProvider service
+                    // note: the specified format code will format the version as "'v'major[.minor][-status]"
+                    options.GroupNameFormat = "'v'VVV";
 
-            //services.AddScoped<IRepository<User>, PostgresSqlRepository<User>>();
-            //services.AddAuthentication("BasicAuthentication")
-            //.AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+                    // note: this option is only necessary when versioning by url segment. the SubstitutionFormat
+                    // can also be used to control the format of the API version in route templates
+                    options.SubstituteApiVersionInUrl = true;
+                });
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1.0", new Info { Title = "My Demo API", Version = "1.0" });
-            });
+            
 
+            services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
+            services.AddSwaggerGen(
+                options =>
+                {
+                    // add a custom operation filter which sets default values
+                    options.OperationFilter<SwaggerDefaultValues>();
+
+                    // integrate xml comments
+                    options.IncludeXmlComments(XmlCommentsFilePath);
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApiVersionDescriptionProvider provider)
         {
             env.ConfigureNLog("nlog.config");
             if (env.IsDevelopment())
@@ -82,12 +98,27 @@ namespace Core_APIService
             #region Swagger UI Integration          
 
             app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "My Demo API (V 1.0)");
-            });
+            app.UseSwaggerUI(
+                options =>
+                {
+                    // build a swagger endpoint for each discovered API version
+                    foreach (var description in provider.ApiVersionDescriptions)
+                    {
+                        options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
+                    }
+                });
             #endregion
 
+        }
+
+        static string XmlCommentsFilePath
+        {
+            get
+            {
+                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var fileName = typeof(Startup).GetTypeInfo().Assembly.GetName().Name + ".xml";
+                return Path.Combine(basePath, fileName);
+            }
         }
     }
 }
