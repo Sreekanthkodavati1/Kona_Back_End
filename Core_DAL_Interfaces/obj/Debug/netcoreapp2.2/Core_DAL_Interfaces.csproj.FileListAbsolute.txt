@@ -1,0 +1,12 @@
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\bin\Debug\netcoreapp2.2\Core_DAL_Interfaces.deps.json
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\bin\Debug\netcoreapp2.2\Core_DAL_Interfaces.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\bin\Debug\netcoreapp2.2\Core_DAL_Interfaces.pdb
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\bin\Debug\netcoreapp2.2\Core_Domain.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\bin\Debug\netcoreapp2.2\Core_Domain.pdb
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.csprojAssemblyReference.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.AssemblyInfoInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.AssemblyInfo.cs
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.csproj.CopyComplete
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_DAL_Interfaces\obj\Debug\netcoreapp2.2\Core_DAL_Interfaces.pdb

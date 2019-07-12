@@ -1,12 +1,9 @@
-﻿using System;
-using PetaPoco;
-using Core_DomainModel;
-using Npgsql;
-using PetaPoco.Providers;
+﻿using Npgsql;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Options;
-using Core_DALInterface;
+using Core_DAL_Interfaces;
+using Core_Domain;
 
 namespace Core_DAL
 {

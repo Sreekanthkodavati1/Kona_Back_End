@@ -1,0 +1,8 @@
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\bin\Debug\netcoreapp2.2\Core_Domain.deps.json
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\bin\Debug\netcoreapp2.2\Core_Domain.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\bin\Debug\netcoreapp2.2\Core_Domain.pdb
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\obj\Debug\netcoreapp2.2\Core_Domain.csproj.CoreCompileInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\obj\Debug\netcoreapp2.2\Core_Domain.AssemblyInfoInputs.cache
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\obj\Debug\netcoreapp2.2\Core_Domain.AssemblyInfo.cs
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\obj\Debug\netcoreapp2.2\Core_Domain.dll
+C:\Users\ramya\source\repos\Kona-Backend-Foundation\Core_Domain\obj\Debug\netcoreapp2.2\Core_Domain.pdb

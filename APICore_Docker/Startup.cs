@@ -1,7 +1,6 @@
 ﻿using Core_APIService.Helpers;
 using Core_BAL;
-using Core_BALInterfaceCore;
-using Core_DomainModel;
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,8 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using Core_DAL;
-using Core_DALInterface;
+
 using NLog.Web;
+using Core_Domain;
+
 namespace Core_APIService
 {
     public class Startup
@@ -48,7 +49,7 @@ namespace Core_APIService
             #endregion
 
             //services.AddScoped<IEntityBAL<User>, UserBAL>();
-            
+
             //services.AddScoped<IRepository<User>, PostgresSqlRepository<User>>();
             //services.AddAuthentication("BasicAuthentication")
             //.AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
@@ -57,6 +58,7 @@ namespace Core_APIService
             {
                 c.SwaggerDoc("v1.0", new Info { Title = "My Demo API", Version = "1.0" });
             });
+
 
         }
 
@@ -85,6 +87,7 @@ namespace Core_APIService
                 c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "My Demo API (V 1.0)");
             });
             #endregion
+
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Core_DAL;
 using Core_DALInterface;
+using Core_Domain;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Core_APIService
@@ -8,7 +9,8 @@ namespace Core_APIService
     {
         public static void RegisterDALDependnecies(IServiceCollection services)
         {
-            services.Add(new ServiceDescriptor(typeof(IUserDAL), typeof(UserDAL), ServiceLifetime.Singleton));
+            services.AddScoped<IRepository<User>, PostgresSqlRepository<User>>();
+            //services.Add(new ServiceDescriptor(typeof(IUserDAL), typeof(UserDAL), ServiceLifetime.Singleton));
         }
     }
 }
