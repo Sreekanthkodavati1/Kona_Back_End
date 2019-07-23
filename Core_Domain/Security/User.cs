@@ -3,7 +3,7 @@ using System;
 
 namespace Core_Domain
 {
-    [TableName("\"ProjectKona\".\"User\"")]
+    [TableName("\"security\".\"user_account\"")]
     [PrimaryKey("UserId", AutoIncrement = true)]
     public class User
     {
